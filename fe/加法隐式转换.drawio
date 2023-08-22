@@ -1,9 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2023-08-22T09:39:27.989Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.8" etag="_4rl4pPSTaLDHmIlXp--" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-22T10:01:02.538Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="vbKVf9GLI0skeqp9QddS" version="21.6.8" type="github">
   <diagram name="第 1 页" id="gEyI1c8E-QIGv9X3K2N-">
-    <mxGraphModel>
+    <mxGraphModel dx="1837" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="M22EpANelsn_1F2j9pR0-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;加法隐式转换&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M22EpANelsn_1F2j9pR0-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="185" width="50" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="M22EpANelsn_1F2j9pR0-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M22EpANelsn_1F2j9pR0-5" target="M22EpANelsn_1F2j9pR0-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M22EpANelsn_1F2j9pR0-5" value="含非原始类型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="210" y="360" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M22EpANelsn_1F2j9pR0-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="210" y="90" width="510" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="M22EpANelsn_1F2j9pR0-4" value="均为原始类型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fixDash=1;" vertex="1" parent="M22EpANelsn_1F2j9pR0-21">
+          <mxGeometry y="50" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M22EpANelsn_1F2j9pR0-6" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fixDash=1;" vertex="1" parent="M22EpANelsn_1F2j9pR0-21">
+          <mxGeometry x="140" y="30" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="M22EpANelsn_1F2j9pR0-8" value="含字符串" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" vertex="1" parent="M22EpANelsn_1F2j9pR0-21">
+          <mxGeometry x="160" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M22EpANelsn_1F2j9pR0-9" value="转为数字相加" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;fixDash=1;" vertex="1" parent="M22EpANelsn_1F2j9pR0-21">
+          <mxGeometry x="160" y="100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M22EpANelsn_1F2j9pR0-10" value="转为字符串拼接" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="M22EpANelsn_1F2j9pR0-21">
+          <mxGeometry x="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M22EpANelsn_1F2j9pR0-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fixDash=1;" edge="1" parent="M22EpANelsn_1F2j9pR0-21" source="M22EpANelsn_1F2j9pR0-8" target="M22EpANelsn_1F2j9pR0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M22EpANelsn_1F2j9pR0-12" value="含NaN, 结果为NaN" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;fixDash=1;" vertex="1" parent="M22EpANelsn_1F2j9pR0-21">
+          <mxGeometry x="390" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M22EpANelsn_1F2j9pR0-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fixDash=1;" edge="1" parent="M22EpANelsn_1F2j9pR0-21" source="M22EpANelsn_1F2j9pR0-9" target="M22EpANelsn_1F2j9pR0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M22EpANelsn_1F2j9pR0-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M22EpANelsn_1F2j9pR0-30" target="M22EpANelsn_1F2j9pR0-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M22EpANelsn_1F2j9pR0-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M22EpANelsn_1F2j9pR0-30" target="M22EpANelsn_1F2j9pR0-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M22EpANelsn_1F2j9pR0-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="M22EpANelsn_1F2j9pR0-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450.96" y="430" as="sourcePoint" />
+            <mxPoint x="499.99999999999994" y="487.02" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="451" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M22EpANelsn_1F2j9pR0-30" value="强制类型转换" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="350" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M22EpANelsn_1F2j9pR0-36" value="valueOf" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="360" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M22EpANelsn_1F2j9pR0-38" value="toString" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="450" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M22EpANelsn_1F2j9pR0-41" value="[Symbol.toPrimitive]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="540" y="280" width="170" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
