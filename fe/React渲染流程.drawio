@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T08:15:59.100Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.0.2" etag="YNtIgisuOWTuk2Hoa015" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-22T08:25:58.990Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="xBZquEJ5HVNydoKHPzaC" version="23.0.2" type="github">
   <diagram name="第 1 页" id="37VrIsKAk9BVpjl1O9j8">
-    <mxGraphModel>
+    <mxGraphModel dx="1194" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8jnuI69k24XkxoJ7mfdI-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="300" y="160" width="620" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="8jnuI69k24XkxoJ7mfdI-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="230" width="340" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="8jnuI69k24XkxoJ7mfdI-4" value="Render 阶段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="180" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8jnuI69k24XkxoJ7mfdI-5" value="Commit 阶段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="725" y="180" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8jnuI69k24XkxoJ7mfdI-6" value="Scheduler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="250" width="110" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8jnuI69k24XkxoJ7mfdI-7" value="Reconciler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="250" width="110" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8jnuI69k24XkxoJ7mfdI-8" value="Renderer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=18;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="250" width="110" height="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
